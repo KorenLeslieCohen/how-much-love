@@ -21,11 +21,22 @@
         <% fiveArr.push(stat.number); %>
       <% } %>
     <% }); %>
-
-    Ones: <%= oneArr.length %>
-    Twos: <%= twoArr.length %>
-    Threes: <%= threeArr.length %>
-    Fours: <%= fourArr.length %>
-    Fives: <%= fiveArr.length %>
+    <div id="stats-container">
+      <div class="stats">
+        <p>Ones:<br><%= oneArr.length %></p>
+      </div>
+      <div class="stats">
+        <p>Twos:<br><%= twoArr.length %></p>
+      </div>
+      <div class="stats">
+        <p>Threes:<br><%= threeArr.length %></p>
+      </div>
+      <div class="stats">
+        <p>Fours:<br><%= fourArr.length %></p> 
+      </div>
+      <div class="stats">
+        <p>Fives:<br><%= fiveArr.length %></p>
+      </div>
+    </div>
   </body>
 </html>
