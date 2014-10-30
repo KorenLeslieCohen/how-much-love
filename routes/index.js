@@ -22,7 +22,8 @@ router.get('/stats', function(req, res) {
   var stats = db.get('stats');
   stats.find({},{}, function(e, docs){
     res.render('stats', { 
-      title: 'Stats' 
+      title: 'Stats',
+      'stats': docs 
     });
   });
 });
@@ -31,12 +32,9 @@ router.get('/stats', function(req, res) {
 router.post('/addstats', function(req, res) {
   var db = req.db;
   var num = req.body.number;
-
-  var users = db.get('stats');
-
-  users.insert({
+  var stats = db.get('stats');
+  stats.insert({
     'number' : num
- 
   }, function (error, doc) {
     if (error) {
       res.send("Could not add stats.");

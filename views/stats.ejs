@@ -7,5 +7,10 @@
     <% include partials/nav %>
     <h1><%= title %></h1>
     <p>This is where the stats will go, and there will be a counter.</p>
+    <ul>
+      <% stats.forEach(function(stat) { %>
+        <li><%= stat.number %></li>
+      <% }); %>
+    </ul>
   </body>
 </html>
