@@ -20,10 +20,20 @@ router.get('/survey', function(req, res) {
 router.get('/stats', function(req, res) {
   var db = req.db;
   var stats = db.get('stats');
+  var oneArr = [];
+  var twoArr = [];
+  var threeArr = [];
+  var fourArr = [];
+  var fiveArr = [];
   stats.find({},{}, function(e, docs){
     res.render('stats', { 
       title: 'Stats',
-      'stats': docs 
+      'stats': docs,
+      oneArr: oneArr, 
+      twoArr: twoArr,
+      threeArr: threeArr,
+      fourArr: fourArr,
+      fiveArr: fiveArr
     });
   });
 });

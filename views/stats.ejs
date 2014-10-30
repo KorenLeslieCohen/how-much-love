@@ -7,10 +7,25 @@
     <% include partials/nav %>
     <h1><%= title %></h1>
     <p>This is where the stats will go, and there will be a counter.</p>
-    <ul>
-      <% stats.forEach(function(stat) { %>
-        <li><%= stat.number %></li>
-      <% }); %>
-    </ul>
+
+    <% stats.forEach(function(stat) { %> 
+      <% if (stat.number === "one") { %>
+        <% oneArr.push(stat.number); %>
+      <% } else if (stat.number === "two") { %>
+        <% twoArr.push(stat.number); %>
+      <% } else if (stat.number === "three") { %>
+        <% threeArr.push(stat.number); %>
+      <% } else if (stat.number === "four") { %>
+        <% fourArr.push(stat.number); %>
+      <% } else if (stat.number === "five") { %>
+        <% fiveArr.push(stat.number); %>
+      <% } %>
+    <% }); %>
+
+    Ones: <%= oneArr.length %>
+    Twos: <%= twoArr.length %>
+    Threes: <%= threeArr.length %>
+    Fours: <%= fourArr.length %>
+    Fives: <%= fiveArr.length %>
   </body>
 </html>
