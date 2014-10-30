@@ -7,5 +7,30 @@
     <% include partials/nav %>
     <h1><%= title %></h1>
     <p>This is where the survey will be. Need to create a form.</p>
+    <form name="survey" method="post" action="/addstats">
+    <div class="survey">
+      <input type="radio" name="number" value="one">
+      <p>&hearts;</p>
+    </div>
+    <div class="survey">
+      <input type="radio" name="number" value="two">
+      <p>&hearts;&hearts;</p>
+    </div> 
+    <div class="survey">
+      <input type="radio" name="number" value="three">
+      <p>&hearts;&hearts;&hearts;</p>
+    </div> 
+    <div class="survey">
+      <input type="radio" name="number" value="four">
+      <p>&hearts;&hearts;&hearts;&hearts;</p>
+    </div> 
+    <div class="survey">
+      <input type="radio" name="number" value="five">
+      <p>&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;</p>
+    </div><br>
+      <input type="submit" value="Add My Stats!">
+    </form>
   </body>
 </html>
+
+

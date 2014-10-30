@@ -27,4 +27,24 @@ router.get('/stats', function(req, res) {
   });
 });
 
+/* POST stats page. */
+router.post('/addstats', function(req, res) {
+  var db = req.db;
+  var num = req.body.number;
+
+  var users = db.get('stats');
+
+  users.insert({
+    'number' : num
+ 
+  }, function (error, doc) {
+    if (error) {
+      res.send("Could not add stats.");
+    } else {
+      res.location('stats');
+      res.redirect('stats');
+    }
+  });
+});
+
 module.exports = router;

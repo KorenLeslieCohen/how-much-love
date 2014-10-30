@@ -6,3 +6,14 @@ body {
 a {
   color: #00B7FF;
 }
+
+.survey {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+input {
+  margin-left: auto;
+  margin-right: auto;
+}
