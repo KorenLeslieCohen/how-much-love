@@ -18,7 +18,13 @@ router.get('/survey', function(req, res) {
 
 /* GET stats page. */
 router.get('/stats', function(req, res) {
-  res.render('stats', { title: 'Stats' });
+  var db = req.db;
+  var stats = db.get('stats');
+  stats.find({},{}, function(e, docs){
+    res.render('stats', { 
+      title: 'Stats' 
+    });
+  });
 });
 
 module.exports = router;
