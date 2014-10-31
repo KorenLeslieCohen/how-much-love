@@ -1,15 +1,12 @@
-/* line 1, ../sass/style.scss */
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: pink;
 }
 
-/* line 6, ../sass/style.scss */
 a {
   color: #00B7FF;
 }
 
-/* line 10, ../sass/style.scss */
 .survey,
 .stats {
   float: left;
@@ -17,7 +14,6 @@ a {
   margin-right: 20px;
 }
 
-/* line 17, ../sass/style.scss */
 #stats-container {
   margin-left: auto;
   margin-right: auto;
@@ -25,20 +21,17 @@ a {
   width: 410px;
 }
 
-/* line 24, ../sass/style.scss */
 #survey-container {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
 }
 
-/* line 30, ../sass/style.scss */
 input {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 35, ../sass/style.scss */
 nav {
   margin-left: auto;
   margin-right: auto;
@@ -46,19 +39,16 @@ nav {
   width: 390px;
 }
 
-/* line 42, ../sass/style.scss */
 nav ul {
   list-style: none;
 }
 
-/* line 46, ../sass/style.scss */
 nav ul li {
   float: left;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 52, ../sass/style.scss */
 h1,
 p {
   text-align: center;
