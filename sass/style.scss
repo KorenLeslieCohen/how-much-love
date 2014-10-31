@@ -1,0 +1,55 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: pink;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.survey,
+.stats {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#stats-container {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 410px;
+}
+
+#survey-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+input {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 390px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1,
+p {
+  text-align: center;
+}
