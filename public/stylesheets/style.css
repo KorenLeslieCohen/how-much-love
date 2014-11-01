@@ -1,129 +1,87 @@
 /* line 1, ../sass/style.scss */
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  /*background-image: url("images/82.gif");*/
-  /*  background-size: cover;
-  */
 }
-
-/* line 7, ../sass/style.scss */
-a {
+/* line 4, ../sass/style.scss */
+body a {
   color: #00B7FF;
 }
-
-/* line 11, ../sass/style.scss */
-.survey,
-.stats {
-  float: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  background: red;
+/* line 8, ../sass/style.scss */
+body h1,
+body p {
+  text-align: center;
 }
-
-/* line 19, ../sass/style.scss */
-.clueless {
+/* line 15, ../sass/style.scss */
+body #big-ball img {
+  height: 100px;
+}
+/* line 20, ../sass/style.scss */
+body .clueless {
   width: 500px;
   background: yellow;
   margin-left: auto;
   margin-right: auto;
 }
-
 /* line 26, ../sass/style.scss */
-.clueless img {
-  /*border-radius: 50%;*/
+body .clueless img {
   border: 10px solid pink;
   margin-left: auto;
   margin-right: auto;
 }
-
-/* line 33, ../sass/style.scss */
-#clueless1,
-#clueless2,
-#clueless3 {
-  /*float: left;*/
-  /*        margin-left: auto;
-    margin-right: auto;*/
-}
-
-/* line 41, ../sass/style.scss */
-#clueless3 {
+/* line 32, ../sass/style.scss */
+body .clueless #clueless3 {
   margin-left: 25px;
 }
-
-/* line 45, ../sass/style.scss */
-.survey,
-.stats {
-  width: 50px;
-}
-
-/* line 50, ../sass/style.scss */
-#big-ball img {
-  height: 100px;
-}
-
-/* line 54, ../sass/style.scss */
-#answer {
+/* line 39, ../sass/style.scss */
+body #answer-container #answer {
   height: 100px;
   width: 500px;
   border: 1px solid grey;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("images/81.jpeg");
-  /*  background-size: cover;
-  */
 }
-
-/* line 64, ../sass/style.scss */
-#stats-container {
+/* line 46, ../sass/style.scss */
+body #answer-container #answer p {
+  font-size: 25px;
+}
+/* line 52, ../sass/style.scss */
+body #survey-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  background: yellow;
+}
+/* line 58, ../sass/style.scss */
+body #survey-container .survey {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: red;
+  width: 50px;
+}
+/* line 65, ../sass/style.scss */
+body #survey-container .survey .submit {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 71, ../sass/style.scss */
+body #survey-container .survey input {
+  margin-left: 18px;
+}
+/* line 77, ../sass/style.scss */
+body #stats-container {
   margin-left: auto;
   margin-right: auto;
   height: 100px;
   width: 410px;
   background: yellow;
 }
-
-/* line 72, ../sass/style.scss */
-#survey-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 450px;
-  background: yellow;
-}
-
-/* line 79, ../sass/style.scss */
-input {
-  margin-left: 18px;
-}
-
-/* line 83, ../sass/style.scss */
-.submit {
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* line 89, ../sass/style.scss */
-nav {
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  width: 390px;
-}
-
-/* line 96, ../sass/style.scss */
-nav ul {
-  list-style: none;
-}
-
-/* line 100, ../sass/style.scss */
-nav ul li {
+/* line 84, ../sass/style.scss */
+body #stats-container .stats {
   float: left;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-/* line 106, ../sass/style.scss */
-h1,
-p {
-  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: red;
+  width: 50px;
 }

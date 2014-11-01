@@ -1,109 +1,104 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  /*background-image: url("images/82.gif");*/
-/*  background-size: cover;
-*/}
 
-a {
-  color: #00B7FF;
-}
+  a {
+    color: #00B7FF;
+  }
 
-.survey,
-.stats {
-  float: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  background: red;
-}
+  h1,
+  p {
+    text-align: center;
+  }
 
-.clueless {
- width: 500px;
-  background: yellow;
-      margin-left: auto;
-  margin-right: auto;
-}
+  #big-ball {
 
-.clueless img {
-  /*border-radius: 50%;*/
-  border: 10px solid pink;
-        margin-left: auto;
-  margin-right: auto;
-}
+    img {
+      height: 100px;
+    }
+  } 
 
-#clueless1,
-#clueless2,
-#clueless3 {
-  /*float: left;*/
-/*        margin-left: auto;
-  margin-right: auto;*/
-}
-
-#clueless3 {
-  margin-left: 25px;
-}
-
-.survey,
-.stats {
-  width: 50px;
-}
-
-#big-ball img {
-  height: 100px;
-}
-
-#answer {
-  height: 100px;
-  width: 500px;
-  border: 1px solid grey;
+  .clueless {
+    width: 500px;
+    background: yellow;
     margin-left: auto;
-  margin-right: auto;
-    background-image: url("images/81.jpeg");
-/*  background-size: cover;
-*/}
+    margin-right: auto;
 
-#stats-container {
-  margin-left: auto;
-  margin-right: auto;
-  height: 100px;
-  width: 410px;
-  background: yellow;
+    img {
+      border: 10px solid pink;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #clueless3 {
+      margin-left: 25px;
+    }
+  }
+
+  #answer-container {
+
+    #answer {
+      height: 100px;
+      width: 500px;
+      border: 1px solid grey;
+      margin-left: auto;
+      margin-right: auto;
+
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+
+  #survey-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    background: yellow;
+
+    .survey {
+      float: left;
+      margin-left: 20px;
+      margin-right: 20px;
+      background: red;
+      width: 50px;
+
+      .submit {
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      input {
+        margin-left: 18px;
+      }
+    }
+  }
+
+  #stats-container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 410px;
+    background: yellow;
+
+    .stats {
+      float: left;
+      margin-left: 20px;
+      margin-right: 20px;
+      background: red;
+      width: 50px;
+    }
+  }
+
 }
 
-#survey-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 450px;
-  background: yellow;
-}
 
-input {
-  margin-left: 18px;
-}
 
-.submit {
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-nav {
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  width: 390px;
-}
 
-nav ul {
-  list-style: none;
-}
 
-nav ul li {
-  float: left;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
-h1,
-p {
-  text-align: center;
-}
+
+
+
+
