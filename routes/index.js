@@ -12,8 +12,13 @@ router.get('/about', function(req, res) {
 });
 
 /* GET survey page. */
-router.get('/survey', function(req, res) {
-  res.render('survey', { title: 'Survey' });
+router.get('/shake', function(req, res) {
+  res.render('shake', { title: 'Shake' });
+});
+
+/* GET survey page. */
+router.get('/rate', function(req, res) {
+  res.render('rate', { title: 'Rate' });
 });
 
 /* GET stats page. */

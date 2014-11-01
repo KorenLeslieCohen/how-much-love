@@ -6,7 +6,7 @@
   <body>
     <% include partials/nav %>
     <h1><%= title %></h1>
-    <p>This is where the stats will go, and there will be a counter.</p>
+    <p>Magic 8 Stats</p>
 
     <% stats.forEach(function(stat) { %> 
       <% if (stat.number === "one") { %>
@@ -21,22 +21,24 @@
         <% fiveArr.push(stat.number); %>
       <% } %>
     <% }); %>
+
     <div id="stats-container">
       <div class="stats">
-        <p>Ones:<br><%= oneArr.length %></p>
+        <p>&hearts;<br><%= oneArr.length %></p>
       </div>
       <div class="stats">
-        <p>Twos:<br><%= twoArr.length %></p>
+        <p>&hearts;&hearts;<br><%= twoArr.length %></p>
       </div>
       <div class="stats">
-        <p>Threes:<br><%= threeArr.length %></p>
+        <p>&hearts;&hearts;&hearts;<br><%= threeArr.length %></p>
       </div>
       <div class="stats">
-        <p>Fours:<br><%= fourArr.length %></p> 
+        <p>&hearts;&hearts;&hearts;&hearts;<br><%= fourArr.length %></p> 
       </div>
       <div class="stats">
-        <p>Fives:<br><%= fiveArr.length %></p>
+        <p>&hearts;&hearts;&hearts;&hearts;&hearts;<br><%= fiveArr.length %></p>
       </div>
     </div>
+
   </body>
 </html>

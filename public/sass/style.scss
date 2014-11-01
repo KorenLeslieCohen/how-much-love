@@ -1,7 +1,8 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: pink;
-}
+  /*background-image: url("images/82.gif");*/
+/*  background-size: cover;
+*/}
 
 a {
   color: #00B7FF;
@@ -12,22 +13,75 @@ a {
   float: left;
   margin-left: 20px;
   margin-right: 20px;
+  background: red;
 }
+
+.clueless {
+ width: 500px;
+  background: yellow;
+      margin-left: auto;
+  margin-right: auto;
+}
+
+.clueless img {
+  /*border-radius: 50%;*/
+  border: 10px solid pink;
+        margin-left: auto;
+  margin-right: auto;
+}
+
+#clueless1,
+#clueless2,
+#clueless3 {
+  /*float: left;*/
+/*        margin-left: auto;
+  margin-right: auto;*/
+}
+
+#clueless3 {
+  margin-left: 25px;
+}
+
+.survey,
+.stats {
+  width: 50px;
+}
+
+#big-ball img {
+  height: 100px;
+}
+
+#answer {
+  height: 100px;
+  width: 500px;
+  border: 1px solid grey;
+    margin-left: auto;
+  margin-right: auto;
+    background-image: url("images/81.jpeg");
+/*  background-size: cover;
+*/}
 
 #stats-container {
   margin-left: auto;
   margin-right: auto;
   height: 100px;
   width: 410px;
+  background: yellow;
 }
 
 #survey-container {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 450px;
+  background: yellow;
 }
 
 input {
+  margin-left: 18px;
+}
+
+.submit {
+  width: 100px;
   margin-left: auto;
   margin-right: auto;
 }

@@ -1,44 +1,108 @@
 /* line 1, ../sass/style.scss */
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: pink;
+  /*background-image: url("images/82.gif");*/
+  /*  background-size: cover;
+  */
 }
 
-/* line 6, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
 a {
   color: #00B7FF;
 }
 
-/* line 10, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 .survey,
 .stats {
   float: left;
   margin-left: 20px;
   margin-right: 20px;
+  background: red;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
+.clueless {
+  width: 500px;
+  background: yellow;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 26, ../sass/style.scss */
+.clueless img {
+  /*border-radius: 50%;*/
+  border: 10px solid pink;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 33, ../sass/style.scss */
+#clueless1,
+#clueless2,
+#clueless3 {
+  /*float: left;*/
+  /*        margin-left: auto;
+    margin-right: auto;*/
+}
+
+/* line 41, ../sass/style.scss */
+#clueless3 {
+  margin-left: 25px;
+}
+
+/* line 45, ../sass/style.scss */
+.survey,
+.stats {
+  width: 50px;
+}
+
+/* line 50, ../sass/style.scss */
+#big-ball img {
+  height: 100px;
+}
+
+/* line 54, ../sass/style.scss */
+#answer {
+  height: 100px;
+  width: 500px;
+  border: 1px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("images/81.jpeg");
+  /*  background-size: cover;
+  */
+}
+
+/* line 64, ../sass/style.scss */
 #stats-container {
   margin-left: auto;
   margin-right: auto;
   height: 100px;
   width: 410px;
+  background: yellow;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 #survey-container {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 450px;
+  background: yellow;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 input {
+  margin-left: 18px;
+}
+
+/* line 83, ../sass/style.scss */
+.submit {
+  width: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 nav {
   margin-left: auto;
   margin-right: auto;
@@ -46,19 +110,19 @@ nav {
   width: 390px;
 }
 
-/* line 42, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 nav ul {
   list-style: none;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 nav ul li {
   float: left;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 h1,
 p {
   text-align: center;
