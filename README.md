@@ -18,7 +18,7 @@ When prompted, click on the pink 8 ball.
 
 ## Author
 
-Consign NYC was created by Koren Leslie Cohen - <a href="http://linkedin.com/in/korenlesliecohen/" target="_blank">LinkedIn</a>, <a href="http://twitter.com/korenlc" target="_blank">Twitter</a>, <a href="http://korenlc.com" target="_blank">Blog</a>.
+Magic Date Ball was created by Koren Leslie Cohen - <a href="http://linkedin.com/in/korenlesliecohen/" target="_blank">LinkedIn</a>, <a href="http://twitter.com/korenlc" target="_blank">Twitter</a>, <a href="http://korenlc.com" target="_blank">Blog</a>.
 
 ## License
 
