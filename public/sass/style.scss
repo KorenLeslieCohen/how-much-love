@@ -17,7 +17,7 @@ body {
   .container {
     margin-left: auto;
     margin-right: auto;
-    height: 100vh;
+    /*height: 100vh;*/
 
     a {
       color: $primary-color;
@@ -99,7 +99,7 @@ body {
         #answer {
           margin-top: 20px;
           height: 30vh;
-          width: 900px;
+          max-width: 900px;
           margin-left: auto;
           margin-right: auto;
 
@@ -214,13 +214,14 @@ body {
 /* Smaller Screens - 700px Breakpoint -------> */
 @media screen and (max-width : 700px) {
 
-  .clueless {
-    width: 600px;
-    height: 100px;
-    img {
-      width: 600px;
-      height: 100px;
-    }
+  body .container #about-container .clueless img {
+    width: 650px;
+    height: auto;
+  }
+
+  body .container #answer-container img {
+    width: 650px;
+    height: auto;
   }
 
 }
@@ -228,13 +229,14 @@ body {
 /* Smaller Screens - 600px Breakpoint -------> */
 @media screen and (max-width : 600px) {
 
-  .clueless {
-    width: 500px;
-    height: 100px;
-    img {
-      width: 500px;
-      height: 100px;
-    }
+  body .container #about-container .clueless img {
+    width: 550px;
+    height: auto;
+  }
+
+  body .container #answer-container img {
+    width: 550px;
+    height: auto;
   }
 
 }
@@ -242,13 +244,30 @@ body {
 /* Smaller Screens - 500px Breakpoint -------> */
 @media screen and (max-width : 500px) {
 
-  .clueless {
-    width: 400px;
-    height: 100px;
-    img {
-      width: 400px;
-      height: 100px;
-    }
+  body .container #about-container .clueless img {
+    width: 450px;
+    height: auto;
+  }
+
+  body .container #answer-container img {
+    width: 450px;
+    height: auto;
+  }
+
+}
+
+/* Smaller Screens - 400px Breakpoint -------> */
+@media screen and (max-width : 400px) {
+
+  body .container #about-container .clueless img {
+    width: 350px;
+    height: auto;
+  }
+
+
+  body .container #answer-container img {
+    width: 350px;
+    height: auto;
   }
 
 }
