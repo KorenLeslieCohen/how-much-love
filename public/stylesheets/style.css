@@ -198,61 +198,70 @@ body .container #stats-container #tweet-button {
   margin-right: auto;
 }
 
+/* Smaller Screens - 770 Breakpoint -------> */
+@media screen and (max-width: 770px) {
+  /* line 217, ../sass/style.scss */
+  body .container #about-container .clueless img {
+    width: 750px;
+    height: auto;
+    border: 5px solid #f9398c;
+  }
+}
 /* Smaller Screens - 700px Breakpoint -------> */
 @media screen and (max-width: 700px) {
-  /* line 217, ../sass/style.scss */
+  /* line 227, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 650px;
     height: auto;
   }
 
-  /* line 222, ../sass/style.scss */
+  /* line 232, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 400px;
     width: auto;
   }
 
-  /* line 227, ../sass/style.scss */
+  /* line 237, ../sass/style.scss */
   body .container #answer-container img {
     margin-top: 10px;
   }
 
-  /* line 231, ../sass/style.scss */
+  /* line 241, ../sass/style.scss */
   body .container #answer-container #answers #answer p {
     line-height: 1.2;
     font-size: 30px;
   }
 
-  /* line 236, ../sass/style.scss */
+  /* line 246, ../sass/style.scss */
   body .container #rate-container #survey-container {
     width: 600px;
   }
 }
 /* Smaller Screens - 600px Breakpoint -------> */
 @media screen and (max-width: 600px) {
-  /* line 244, ../sass/style.scss */
+  /* line 254, ../sass/style.scss */
   body .container #about-container {
     margin-top: 80px;
   }
 
-  /* line 248, ../sass/style.scss */
+  /* line 258, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 550px;
     height: auto;
   }
 
-  /* line 253, ../sass/style.scss */
+  /* line 263, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 350px;
     width: auto;
   }
 
-  /* line 258, ../sass/style.scss */
+  /* line 268, ../sass/style.scss */
   body .container #answer-container #answer {
     margin-bottom: 5px;
   }
 
-  /* line 262, ../sass/style.scss */
+  /* line 272, ../sass/style.scss */
   body .container #answer-container img {
     width: 300px;
     height: auto;
@@ -261,104 +270,104 @@ body .container #stats-container #tweet-button {
 }
 /* Smaller Screens - 500px Breakpoint -------> */
 @media screen and (max-width: 500px) {
-  /* line 272, ../sass/style.scss */
+  /* line 282, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 450px;
     height: auto;
   }
 
-  /* line 277, ../sass/style.scss */
+  /* line 287, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 300px;
     width: auto;
   }
 
-  /* line 282, ../sass/style.scss */
+  /* line 292, ../sass/style.scss */
   body .container #answer-container img {
     margin-top: 10px;
   }
 
-  /* line 286, ../sass/style.scss */
+  /* line 296, ../sass/style.scss */
   body .container #rate-container,
   body .container #stats-container {
     margin-top: 10px;
   }
 
-  /* line 291, ../sass/style.scss */
+  /* line 301, ../sass/style.scss */
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
     width: 500px;
   }
 
-  /* line 296, ../sass/style.scss */
+  /* line 306, ../sass/style.scss */
   body .container #answer-container #answers #answer p {
     font-size: 25px;
     margin-bottom: 0;
   }
 
-  /* line 301, ../sass/style.scss */
+  /* line 311, ../sass/style.scss */
   body .container #answer-container #answers #answer p a {
     margin-top: 0;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 400px) {
-  /* line 309, ../sass/style.scss */
+  /* line 319, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 350px;
     height: auto;
   }
 
-  /* line 314, ../sass/style.scss */
+  /* line 324, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 250px;
     width: auto;
   }
 
-  /* line 319, ../sass/style.scss */
+  /* line 329, ../sass/style.scss */
   body .container #answer-container img {
     margin-top: 10px;
   }
 
-  /* line 323, ../sass/style.scss */
+  /* line 333, ../sass/style.scss */
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
     width: 200px;
     margin-left: 100px;
   }
 
-  /* line 329, ../sass/style.scss */
+  /* line 339, ../sass/style.scss */
   body .container #rate-container #survey-container .submit {
     margin-left: -10px;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 350px) {
-  /* line 337, ../sass/style.scss */
+  /* line 347, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 320px;
     height: auto;
   }
 
-  /* line 342, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   body .container #answer-container {
     height: 400px;
   }
 
-  /* line 346, ../sass/style.scss */
+  /* line 356, ../sass/style.scss */
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
     margin-left: 75px;
   }
 
-  /* line 351, ../sass/style.scss */
+  /* line 361, ../sass/style.scss */
   body .container #rate-container #survey-container .submit {
     margin-left: -5px;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 320px) {
-  /* line 359, ../sass/style.scss */
+  /* line 369, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 300px;
     height: auto;

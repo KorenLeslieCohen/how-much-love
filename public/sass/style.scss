@@ -211,6 +211,16 @@ body {
   }
 }
 
+/* Smaller Screens - 770 Breakpoint -------> */
+@media screen and (max-width : 770px) {
+
+  body .container #about-container .clueless img {
+    width: 750px;
+    height: auto;
+    border: 5px solid $primary-color;
+  }
+}
+
 /* Smaller Screens - 700px Breakpoint -------> */
 @media screen and (max-width : 700px) {
 
