@@ -10,7 +10,7 @@ $(document).ready(function() {
       "He thinks he's all that.", "Just as long as his you-know-what isn't crooked.", 
       "Don't sell yourself short.", "He said you gave him a toothache.", "Do a lap before you commit to a location.",
       "You two don't make any sense.", "You are the most beautiful girl in Beverly Hills.",
-      "You know you're gorgeous, alright? And popular.", "Wine makes people wanna feel, like sexy.",
+      "You know you're gorgeous, alright? And popular.", 
       "He dresses better than you. What would you bring to the relationship?", "You don't mesh well together.",
       "Don't rely on mirrors; always take polaroids.", "Whenever a boy comes, you should always have something baking.",
       "Don't forget to design a lighting concept.", "Tis a far, far better thing doing stuff for other people.",

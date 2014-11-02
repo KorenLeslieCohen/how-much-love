@@ -12,25 +12,19 @@ body {
   margin: 0;
   padding: 0;
 }
-/* line 21, ../sass/style.scss */
-body #big-ball a img {
-  display: table-caption;
-  margin: 0 auto;
-  height: 100vh;
-}
-/* line 29, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 body .container {
   margin-left: auto;
   margin-right: auto;
   height: 100vh;
 }
-/* line 34, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 body .container a {
   color: #f9398c;
   text-align: center;
   text-decoration: none;
 }
-/* line 40, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 body .container h1,
 body .container h2,
 body .container p {
@@ -39,55 +33,63 @@ body .container p {
   margin-top: 0;
   font-family: "Shadows Into Light";
 }
-/* line 51, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 body .container #about-container h1 {
   font-size: 25px;
   margin-top: 5vh;
 }
-/* line 56, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 body .container #about-container .clueless {
   margin-left: auto;
   margin-right: auto;
   height: 70vh;
 }
-/* line 61, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 body .container #about-container .clueless img {
   border: 20px solid #f9398c;
   display: table-caption;
   margin: 0 auto;
   height: 70vh;
 }
-/* line 69, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 body .container #about-container .clueless #help-ball img {
   height: 70vh;
   border: none;
 }
-/* line 74, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 body .container #about-container .clueless #help-ball h1 {
   margin-top: 0;
 }
-/* line 81, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
+body .container #about-container .clueless #help-ball p {
+  font-size: 20px;
+}
+/* line 69, ../sass/style.scss */
+body .container #about-container .clueless #help-ball p a {
+  color: black;
+}
+/* line 77, ../sass/style.scss */
 body .container #answer-container {
   height: 100vh;
 }
-/* line 84, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 body .container #answer-container img {
   display: table-caption;
   margin: 0 auto;
   height: 55vh;
   margin-top: 5vh;
 }
-/* line 91, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 body .container #answer-container #shake {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-/* line 96, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 body .container #answer-container #shake p {
   color: #f9398c;
 }
-/* line 103, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 body .container #answer-container #answers #answer {
   margin-top: 20px;
   height: 30vh;
@@ -95,32 +97,32 @@ body .container #answer-container #answers #answer {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 110, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 body .container #answer-container #answers #answer p {
   font-size: 40px;
   color: black;
   height: 10vh;
 }
-/* line 115, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 body .container #answer-container #answers #answer p span {
   color: black;
   font-size: 25px;
 }
-/* line 123, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 body .container #answer-container a {
   font-size: 20px;
 }
-/* line 128, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 body .container #rate-container {
   margin-top: 30vh;
 }
-/* line 131, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 body .container #rate-container #survey-container {
   margin-left: auto;
   margin-right: auto;
   width: 800px;
 }
-/* line 136, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 body .container #rate-container #survey-container .survey {
   float: left;
   margin-left: 20px;
@@ -129,23 +131,23 @@ body .container #rate-container #survey-container .survey {
   width: 120px;
   height: 120px;
 }
-/* line 144, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 body .container #rate-container #survey-container .survey p {
   font-size: 20px;
 }
-/* line 148, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 body .container #rate-container #survey-container .survey input {
   margin-left: 53px;
   color: #f9398c;
 }
-/* line 154, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 body .container #rate-container #survey-container .submit {
   width: 150px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
 }
-/* line 160, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 body .container #rate-container #survey-container .submit input {
   background: white;
   padding: 10px;
@@ -154,18 +156,18 @@ body .container #rate-container #survey-container .submit input {
   font-size: 25px;
   border: none;
 }
-/* line 172, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 body .container #stats-container {
   margin-top: 30vh;
 }
-/* line 175, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 body .container #stats-container #stats {
   margin-left: auto;
   margin-right: auto;
   height: 120px;
   width: 800px;
 }
-/* line 181, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 body .container #stats-container #stats .stats {
   float: left;
   margin-left: 20px;
@@ -173,15 +175,15 @@ body .container #stats-container #stats .stats {
   background: #f2f2f2;
   width: 120px;
 }
-/* line 188, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 body .container #stats-container #stats .stats p {
   font-size: 20px;
 }
-/* line 191, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 body .container #stats-container #stats .stats p span {
   font-size: 40px;
 }
-/* line 200, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 body .container #stats-container .home-button h2 {
   padding: 10px;
   font-size: 25px;
@@ -189,7 +191,7 @@ body .container #stats-container .home-button h2 {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 209, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 body .container #stats-container #tweet-button {
   width: 180px;
   margin-left: auto;
