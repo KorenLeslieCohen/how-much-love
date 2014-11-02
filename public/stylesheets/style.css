@@ -207,50 +207,109 @@ body .container #stats-container #tweet-button {
   }
 
   /* line 222, ../sass/style.scss */
+  body .container #about-container .clueless #help-ball img {
+    height: 400px;
+    width: auto;
+  }
+
+  /* line 227, ../sass/style.scss */
   body .container #answer-container img {
-    width: 650px;
-    height: auto;
+    /*    width: 650px;
+        height: auto;*/
+    margin-top: 10px;
   }
 }
 /* Smaller Screens - 600px Breakpoint -------> */
 @media screen and (max-width: 600px) {
-  /* line 232, ../sass/style.scss */
+  /* line 238, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 550px;
     height: auto;
   }
 
-  /* line 237, ../sass/style.scss */
+  /* line 243, ../sass/style.scss */
+  body .container #about-container .clueless #help-ball img {
+    height: 350px;
+    width: auto;
+  }
+
+  /* line 248, ../sass/style.scss */
   body .container #answer-container img {
-    width: 550px;
-    height: auto;
+    /*    width: 550px;
+        height: auto;*/
+    margin-top: 10px;
   }
 }
 /* Smaller Screens - 500px Breakpoint -------> */
 @media screen and (max-width: 500px) {
-  /* line 247, ../sass/style.scss */
+  /* line 259, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 450px;
     height: auto;
   }
 
-  /* line 252, ../sass/style.scss */
+  /* line 264, ../sass/style.scss */
+  body .container #about-container .clueless #help-ball img {
+    height: 300px;
+    width: auto;
+  }
+
+  /* line 269, ../sass/style.scss */
   body .container #answer-container img {
-    width: 450px;
-    height: auto;
+    /*    width: 450px;
+        height: auto;*/
+    margin-top: 10px;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 400px) {
-  /* line 262, ../sass/style.scss */
+  /* line 280, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 350px;
     height: auto;
+    border: 5px solid #f9398c;
   }
 
-  /* line 268, ../sass/style.scss */
+  /* line 286, ../sass/style.scss */
+  body .container #about-container .clueless #help-ball img {
+    height: 250px;
+    width: auto;
+  }
+
+  /* line 291, ../sass/style.scss */
   body .container #answer-container img {
-    width: 350px;
+    /*    width: 350px;
+        height: 350px;*/
+    margin-top: 10px;
+  }
+}
+/* Smaller Screens - 400px Breakpoint -------> */
+@media screen and (max-width: 350px) {
+  /* line 302, ../sass/style.scss */
+  body .container #about-container .clueless img {
+    width: 320px;
     height: auto;
+  }
+
+  /* line 307, ../sass/style.scss */
+  body .container #answer-container img {
+    /*    width: 300px;
+        height: 300px;*/
+    /*margin-top: 10px;*/
+  }
+}
+/* Smaller Screens - 400px Breakpoint -------> */
+@media screen and (max-width: 320px) {
+  /* line 318, ../sass/style.scss */
+  body .container #about-container .clueless img {
+    width: 300px;
+    height: auto;
+  }
+
+  /* line 324, ../sass/style.scss */
+  body .container #answer-container img {
+    /*    width: 300px;
+        height: 300px;*/
+    /*margin-top: 10px;*/
   }
 }

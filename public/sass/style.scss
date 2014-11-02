@@ -219,9 +219,15 @@ body {
     height: auto;
   }
 
+  body .container #about-container .clueless #help-ball img {
+    height: 400px;
+    width: auto;
+  }
+
   body .container #answer-container img {
-    width: 650px;
-    height: auto;
+/*    width: 650px;
+    height: auto;*/
+    margin-top: 10px;
   }
 
 }
@@ -234,9 +240,15 @@ body {
     height: auto;
   }
 
+  body .container #about-container .clueless #help-ball img {
+    height: 350px;
+    width: auto;
+  }
+
   body .container #answer-container img {
-    width: 550px;
-    height: auto;
+/*    width: 550px;
+    height: auto;*/
+    margin-top: 10px;
   }
 
 }
@@ -249,9 +261,15 @@ body {
     height: auto;
   }
 
+  body .container #about-container .clueless #help-ball img {
+    height: 300px;
+    width: auto;
+  }
+
   body .container #answer-container img {
-    width: 450px;
-    height: auto;
+/*    width: 450px;
+    height: auto;*/
+    margin-top: 10px;
   }
 
 }
@@ -262,12 +280,51 @@ body {
   body .container #about-container .clueless img {
     width: 350px;
     height: auto;
+    border: 5px solid $primary-color;
+  }
+
+  body .container #about-container .clueless #help-ball img {
+    height: 250px;
+    width: auto;
+  }
+
+  body .container #answer-container img {
+/*    width: 350px;
+    height: 350px;*/
+    margin-top: 10px;
+  }
+
+}
+
+/* Smaller Screens - 400px Breakpoint -------> */
+@media screen and (max-width : 350px) {
+
+  body .container #about-container .clueless img {
+    width: 320px;
+    height: auto;
+  }
+
+  body .container #answer-container img {
+/*    width: 300px;
+    height: 300px;*/
+    /*margin-top: 10px;*/
+  }
+
+}
+
+/* Smaller Screens - 400px Breakpoint -------> */
+@media screen and (max-width : 320px) {
+
+  body .container #about-container .clueless img {
+    width: 300px;
+    height: auto;
   }
 
 
   body .container #answer-container img {
-    width: 350px;
-    height: auto;
+/*    width: 300px;
+    height: 300px;*/
+    /*margin-top: 10px;*/
   }
 
 }
