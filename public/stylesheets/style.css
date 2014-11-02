@@ -218,38 +218,43 @@ body .container #stats-container #tweet-button {
         height: auto;*/
     margin-top: 10px;
   }
+
+  /* line 233, ../sass/style.scss */
+  body .container #rate-container #survey-container {
+    width: 600px;
+  }
 }
 /* Smaller Screens - 600px Breakpoint -------> */
 @media screen and (max-width: 600px) {
-  /* line 238, ../sass/style.scss */
+  /* line 242, ../sass/style.scss */
   body .container #about-container {
     margin-top: 80px;
   }
 
-  /* line 242, ../sass/style.scss */
+  /* line 246, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 550px;
     height: auto;
   }
 
-  /* line 247, ../sass/style.scss */
+  /* line 251, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 350px;
     width: auto;
   }
 
-  /* line 252, ../sass/style.scss */
+  /* line 256, ../sass/style.scss */
   body .container #answer-container #answer {
     height: 300px;
     overflow: auto;
   }
 
-  /* line 257, ../sass/style.scss */
+  /* line 261, ../sass/style.scss */
   body .container #answer-container #answer p {
     height: 100px;
   }
 
-  /* line 261, ../sass/style.scss */
+  /* line 265, ../sass/style.scss */
   body .container #answer-container img {
     width: 300px;
     height: auto;
@@ -261,63 +266,95 @@ body .container #stats-container #tweet-button {
   /*  body .container #about-container {
       margin-top: 150px;
     }*/
-  /* line 276, ../sass/style.scss */
+  /* line 280, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 450px;
     height: auto;
   }
 
-  /* line 281, ../sass/style.scss */
+  /* line 285, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 300px;
     width: auto;
   }
 
-  /* line 286, ../sass/style.scss */
+  /* line 290, ../sass/style.scss */
   body .container #answer-container img {
     /*    width: 300px;
         height: auto;*/
     margin-top: 10px;
   }
+
+  /* line 296, ../sass/style.scss */
+  body .container #rate-container,
+  body .container #stats-container {
+    margin-top: 10px;
+  }
+
+  /* line 301, ../sass/style.scss */
+  body .container #rate-container #survey-container,
+  body .container #stats-container #stats {
+    width: 500px;
+  }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 400px) {
-  /* line 297, ../sass/style.scss */
+  /* line 311, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 350px;
     height: auto;
     border: 5px solid #f9398c;
   }
 
-  /* line 303, ../sass/style.scss */
+  /* line 317, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 250px;
     width: auto;
   }
 
-  /* line 308, ../sass/style.scss */
+  /* line 322, ../sass/style.scss */
   body .container #answer-container img {
     /*  width: 300px;
       height: auto;*/
     margin-top: 10px;
   }
+
+  /* line 328, ../sass/style.scss */
+  body .container #rate-container #survey-container,
+  body .container #stats-container #stats {
+    width: 200px;
+    margin-left: 100px;
+    /*margin-top: 5px;*/
+    /*    margin-right: auto;
+    */
+  }
+
+  /* line 336, ../sass/style.scss */
+  body .container #rate-container #survey-container h1 {
+    /*margin-top: 5px;*/
+  }
+
+  /* line 340, ../sass/style.scss */
+  body .container #rate-container #survey-container .submit {
+    margin-left: -10px;
+  }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 350px) {
-  /* line 319, ../sass/style.scss */
+  /* line 349, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 320px;
     height: auto;
   }
 
-  /* line 324, ../sass/style.scss */
+  /* line 354, ../sass/style.scss */
   body .container #answer-container img {
     /*    width: 300px;
         height: 300px;*/
     /*margin-top: 10px;*/
   }
 
-  /* line 330, ../sass/style.scss */
+  /* line 360, ../sass/style.scss */
   body .container #answer-container {
     height: 400px;
   }
@@ -325,9 +362,25 @@ body .container #stats-container #tweet-button {
   /*  body .container #answer-container img {
       height: 400px;
     }*/
-  /* line 338, ../sass/style.scss */
+  /* line 368, ../sass/style.scss */
   body .container #answer-container #answers #answer {
     /*height: 10px;*/
+  }
+
+  /* line 372, ../sass/style.scss */
+  body .container #rate-container #survey-container,
+  body .container #stats-container #stats {
+    /*width: 350px;*/
+    margin-left: 75px;
+    /*margin-top: 0;*/
+    /*margin-left: 30px;*/
+    /*    margin-right: auto;
+    */
+  }
+
+  /* line 381, ../sass/style.scss */
+  body .container #rate-container #survey-container .submit {
+    margin-left: -5px;
   }
 }
 /*      #answer-container {
@@ -371,13 +424,13 @@ body .container #stats-container #tweet-button {
 }*/
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 320px) {
-  /* line 386, ../sass/style.scss */
+  /* line 429, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 300px;
     height: auto;
   }
 
-  /* line 392, ../sass/style.scss */
+  /* line 435, ../sass/style.scss */
   body .container #answer-container img {
     /*margin-top: 10px;*/
   }
