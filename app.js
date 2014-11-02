@@ -10,8 +10,8 @@ var mongo = require('mongodb');
 var monk = require('monk');
 // var db = monk('localhost:27017/how-much-love');
 
-var credentials = require('./credentials');
-var db = monk(credentials.uri);
+// var credentials = require('./credentials');
+var db = monk("heroku_app31199091:f73gv0uipm4k88sngd61en98o9@ds047940.mongolab.com:47940/heroku_app31199091");
 
 var routes = require('./routes/index');
 
