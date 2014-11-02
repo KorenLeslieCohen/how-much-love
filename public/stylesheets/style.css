@@ -92,7 +92,7 @@ body .container #answer-container #shake p {
 /* line 99, ../sass/style.scss */
 body .container #answer-container #answers #answer {
   margin-top: 20px;
-  height: 30vh;
+  /*height: 30vh;*/
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -101,7 +101,7 @@ body .container #answer-container #answers #answer {
 body .container #answer-container #answers #answer p {
   font-size: 40px;
   color: black;
-  height: 10vh;
+  /*height: 10vh;*/
 }
 /* line 111, ../sass/style.scss */
 body .container #answer-container #answers #answer p span {
@@ -214,47 +214,45 @@ body .container #stats-container #tweet-button {
 
   /* line 227, ../sass/style.scss */
   body .container #answer-container img {
-    /*    width: 650px;
-        height: auto;*/
     margin-top: 10px;
   }
 
-  /* line 233, ../sass/style.scss */
+  /* line 231, ../sass/style.scss */
+  body .container #answer-container #answers #answer p {
+    line-height: 1.2;
+    font-size: 30px;
+  }
+
+  /* line 236, ../sass/style.scss */
   body .container #rate-container #survey-container {
     width: 600px;
   }
 }
 /* Smaller Screens - 600px Breakpoint -------> */
 @media screen and (max-width: 600px) {
-  /* line 242, ../sass/style.scss */
+  /* line 244, ../sass/style.scss */
   body .container #about-container {
     margin-top: 80px;
   }
 
-  /* line 246, ../sass/style.scss */
+  /* line 248, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 550px;
     height: auto;
   }
 
-  /* line 251, ../sass/style.scss */
+  /* line 253, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 350px;
     width: auto;
   }
 
-  /* line 256, ../sass/style.scss */
+  /* line 258, ../sass/style.scss */
   body .container #answer-container #answer {
-    height: 300px;
-    overflow: auto;
+    margin-bottom: 5px;
   }
 
-  /* line 261, ../sass/style.scss */
-  body .container #answer-container #answer p {
-    height: 100px;
-  }
-
-  /* line 265, ../sass/style.scss */
+  /* line 262, ../sass/style.scss */
   body .container #answer-container img {
     width: 300px;
     height: auto;
@@ -263,175 +261,106 @@ body .container #stats-container #tweet-button {
 }
 /* Smaller Screens - 500px Breakpoint -------> */
 @media screen and (max-width: 500px) {
-  /*  body .container #about-container {
-      margin-top: 150px;
-    }*/
-  /* line 280, ../sass/style.scss */
+  /* line 272, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 450px;
     height: auto;
   }
 
-  /* line 285, ../sass/style.scss */
+  /* line 277, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 300px;
     width: auto;
   }
 
-  /* line 290, ../sass/style.scss */
+  /* line 282, ../sass/style.scss */
   body .container #answer-container img {
-    /*    width: 300px;
-        height: auto;*/
     margin-top: 10px;
   }
 
-  /* line 296, ../sass/style.scss */
+  /* line 286, ../sass/style.scss */
   body .container #rate-container,
   body .container #stats-container {
     margin-top: 10px;
   }
 
-  /* line 301, ../sass/style.scss */
+  /* line 291, ../sass/style.scss */
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
     width: 500px;
   }
+
+  /* line 296, ../sass/style.scss */
+  body .container #answer-container #answers #answer p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  /* line 301, ../sass/style.scss */
+  body .container #answer-container #answers #answer p a {
+    margin-top: 0;
+  }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 400px) {
-  /* line 311, ../sass/style.scss */
+  /* line 309, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 350px;
     height: auto;
-    border: 5px solid #f9398c;
   }
 
-  /* line 317, ../sass/style.scss */
+  /* line 314, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 250px;
     width: auto;
   }
 
-  /* line 322, ../sass/style.scss */
+  /* line 319, ../sass/style.scss */
   body .container #answer-container img {
-    /*  width: 300px;
-      height: auto;*/
     margin-top: 10px;
   }
 
-  /* line 328, ../sass/style.scss */
+  /* line 323, ../sass/style.scss */
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
     width: 200px;
     margin-left: 100px;
-    /*margin-top: 5px;*/
-    /*    margin-right: auto;
-    */
   }
 
-  /* line 336, ../sass/style.scss */
-  body .container #rate-container #survey-container h1 {
-    /*margin-top: 5px;*/
-  }
-
-  /* line 340, ../sass/style.scss */
+  /* line 329, ../sass/style.scss */
   body .container #rate-container #survey-container .submit {
     margin-left: -10px;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 350px) {
-  /* line 349, ../sass/style.scss */
+  /* line 337, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 320px;
     height: auto;
   }
 
-  /* line 354, ../sass/style.scss */
-  body .container #answer-container img {
-    /*    width: 300px;
-        height: 300px;*/
-    /*margin-top: 10px;*/
-  }
-
-  /* line 360, ../sass/style.scss */
+  /* line 342, ../sass/style.scss */
   body .container #answer-container {
     height: 400px;
   }
 
-  /*  body .container #answer-container img {
-      height: 400px;
-    }*/
-  /* line 368, ../sass/style.scss */
-  body .container #answer-container #answers #answer {
-    /*height: 10px;*/
-  }
-
-  /* line 372, ../sass/style.scss */
+  /* line 346, ../sass/style.scss */
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
-    /*width: 350px;*/
     margin-left: 75px;
-    /*margin-top: 0;*/
-    /*margin-left: 30px;*/
-    /*    margin-right: auto;
-    */
   }
 
-  /* line 381, ../sass/style.scss */
+  /* line 351, ../sass/style.scss */
   body .container #rate-container #survey-container .submit {
     margin-left: -5px;
   }
 }
-/*      #answer-container {
-      height: 100vh;
-
-      img {
-        display: table-caption;
-        margin: 0 auto;
-        height: 55vh;
-        margin-top: 5vh;
-      }
-
-      #shake {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-
-        p {
-          color: $primary-color;
-        }
-      }
-
-      #answers {
-
-        #answer {
-          margin-top: 20px;
-          height: 30vh;
-          max-width: 900px;
-          margin-left: auto;
-          margin-right: auto;
-
-          p {
-            font-size: 40px;
-            color: black;
-            height: 10vh;
-
-            span {
-              color: black;
-              font-size: 25px;
-
-}*/
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 320px) {
-  /* line 429, ../sass/style.scss */
+  /* line 359, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 300px;
     height: auto;
-  }
-
-  /* line 435, ../sass/style.scss */
-  body .container #answer-container img {
-    /*margin-top: 10px;*/
   }
 }

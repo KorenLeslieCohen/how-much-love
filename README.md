@@ -10,7 +10,7 @@ Magic Date Ball is a new and improved version of the classic Magic 8 Ball bringi
 
 ## Background
 
-This is a Node.js application using Express.js, MongoDB and SASS.
+This is a Node.js application using Express.js, MongoDB and SASS. Mobile-optimized.
 
 ## Usage
 

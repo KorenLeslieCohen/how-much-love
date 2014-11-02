@@ -98,7 +98,7 @@ body {
 
         #answer {
           margin-top: 20px;
-          height: 30vh;
+          /*height: 30vh;*/
           max-width: 900px;
           margin-left: auto;
           margin-right: auto;
@@ -106,7 +106,7 @@ body {
           p {
             font-size: 40px;
             color: black;
-            height: 10vh;
+            /*height: 10vh;*/
 
             span {
               color: black;
@@ -225,15 +225,17 @@ body {
   }
 
   body .container #answer-container img {
-/*    width: 650px;
-    height: auto;*/
     margin-top: 10px;
+  }
+
+  body .container #answer-container #answers #answer p {
+    line-height: 1.2;
+    font-size: 30px;
   }
 
   body .container #rate-container #survey-container {
     width: 600px;
   }
-
 }
 
 /* Smaller Screens - 600px Breakpoint -------> */
@@ -254,12 +256,7 @@ body {
   }
 
   body .container #answer-container #answer {
-    height: 300px;
-    overflow: auto;
-  }
-
-  body .container #answer-container #answer p {
-    height: 100px;
+    margin-bottom: 5px;
   }
 
   body .container #answer-container img {
@@ -267,15 +264,10 @@ body {
     height: auto;
     margin-top: 10px;
   }
-
 }
 
 /* Smaller Screens - 500px Breakpoint -------> */
 @media screen and (max-width : 500px) {
-
-/*  body .container #about-container {
-    margin-top: 150px;
-  }*/
 
   body .container #about-container .clueless img {
     width: 450px;
@@ -288,8 +280,6 @@ body {
   }
 
   body .container #answer-container img {
-/*    width: 300px;
-    height: auto;*/
     margin-top: 10px;
   }
 
@@ -303,6 +293,14 @@ body {
     width: 500px;
   }
 
+  body .container #answer-container #answers #answer p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  body .container #answer-container #answers #answer p a {
+    margin-top: 0;
+  }
 }
 
 /* Smaller Screens - 400px Breakpoint -------> */
@@ -311,7 +309,6 @@ body {
   body .container #about-container .clueless img {
     width: 350px;
     height: auto;
-    border: 5px solid $primary-color;
   }
 
   body .container #about-container .clueless #help-ball img {
@@ -320,8 +317,6 @@ body {
   }
 
   body .container #answer-container img {
-  /*  width: 300px;
-    height: auto;*/
     margin-top: 10px;
   }
 
@@ -329,18 +324,11 @@ body {
   body .container #stats-container #stats {
     width: 200px;
     margin-left: 100px;
-    /*margin-top: 5px;*/
-/*    margin-right: auto;
-*/  }
-
-body .container #rate-container #survey-container h1 {
-  /*margin-top: 5px;*/
-}
+  }
 
   body .container #rate-container #survey-container .submit { 
     margin-left: -10px;
   }
-
 }
 
 /* Smaller Screens - 400px Breakpoint -------> */
@@ -351,77 +339,19 @@ body .container #rate-container #survey-container h1 {
     height: auto;
   }
 
-  body .container #answer-container img {
-/*    width: 300px;
-    height: 300px;*/
-    /*margin-top: 10px;*/
-  }
-
   body .container #answer-container {
     height: 400px;
   }
 
-/*  body .container #answer-container img {
-    height: 400px;
-  }*/
-
-  body .container #answer-container #answers #answer {
-    /*height: 10px;*/
-  }
-
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
-    /*width: 350px;*/
     margin-left: 75px;
-    /*margin-top: 0;*/
-    /*margin-left: 30px;*/
-/*    margin-right: auto;
-*/  }
+ }
 
   body .container #rate-container #survey-container .submit { 
     margin-left: -5px;
   }
 }
-
-/*      #answer-container {
-      height: 100vh;
-
-      img {
-        display: table-caption;
-        margin: 0 auto;
-        height: 55vh;
-        margin-top: 5vh;
-      }
-
-      #shake {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-
-        p {
-          color: $primary-color;
-        }
-      }
-
-      #answers {
-
-        #answer {
-          margin-top: 20px;
-          height: 30vh;
-          max-width: 900px;
-          margin-left: auto;
-          margin-right: auto;
-
-          p {
-            font-size: 40px;
-            color: black;
-            height: 10vh;
-
-            span {
-              color: black;
-              font-size: 25px;
-
-}*/
 
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width : 320px) {
@@ -430,11 +360,4 @@ body .container #rate-container #survey-container h1 {
     width: 300px;
     height: auto;
   }
-
-
-  body .container #answer-container img {
-
-    /*margin-top: 10px;*/
-  }
-
 }
