@@ -98,8 +98,6 @@ body {
       #answers {
 
         #answer {
-          margin-top: 20px;
-          /*height: 30vh;*/
           max-width: 900px;
           margin-left: auto;
           margin-right: auto;
@@ -107,7 +105,6 @@ body {
           p {
             font-size: 40px;
             color: black;
-            /*height: 10vh;*/
 
             span {
               color: black;
@@ -119,6 +116,7 @@ body {
 
       p {
         margin-top: 20px;
+        margin-bottom: 0;
       }
 
       a {
