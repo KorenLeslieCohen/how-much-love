@@ -1,95 +1,118 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-
-  a {
-    color: #00B7FF;
-  }
-
-  h1,
-  p {
-    text-align: center;
-  }
+  height: 100%;
 
   #big-ball {
 
-    img {
-      height: 100px;
-    }
-  } 
+      a {
 
-  .clueless {
-    width: 500px;
-    background: yellow;
+        img {
+          display: table-caption;
+          margin: 0 auto;
+          height: 100vh;
+        }
+      }
+    } 
+
+  .container {
     margin-left: auto;
     margin-right: auto;
 
-    img {
-      border: 10px solid pink;
-      margin-left: auto;
-      margin-right: auto;
+    a {
+      color: #00B7FF;
+      text-align: center;
     }
 
-    #clueless3 {
-      margin-left: 25px;
+    h1,
+    p {
+      text-align: center;
     }
-  }
 
-  #answer-container {
-
-    #answer {
-      height: 100px;
-      width: 500px;
-      border: 1px solid grey;
+    .clueless {
+      width: 800px;
       margin-left: auto;
       margin-right: auto;
 
-      p {
-        font-size: 25px;
+      img {
+        width: 800px;
+        border: 10px solid pink;
+        display: table-caption;
+        margin: 0 auto;
+      }
+
+      #help-ball {
+        img {
+          width: 500px;
+          height: 500px;
+          border: none;
+        }
       }
     }
-  }
 
-  #survey-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 450px;
-    background: yellow;
+    #answer-container {
 
-    .survey {
-      float: left;
-      margin-left: 20px;
-      margin-right: 20px;
-      background: red;
-      width: 50px;
-
-      .submit {
-        width: 100px;
+      #answer {
+        height: 100px;
+        width: 500px;
+        border: 1px solid grey;
         margin-left: auto;
         margin-right: auto;
-      }
 
-      input {
-        margin-left: 18px;
+        p {
+          font-size: 25px;
+        }
+      }
+    }
+
+    #rate-container {
+      margin-top: 30vh;
+
+      #survey-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        background: yellow;
+
+        .survey {
+          float: left;
+          margin-left: 20px;
+          margin-right: 20px;
+          background: red;
+          width: 50px;
+
+          .submit {
+            width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          input {
+            margin-left: 18px;
+          }
+        }
+      }
+    }
+
+    #stats-container {
+      margin-top: 30vh;
+
+      #stats {
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px;
+        width: 410px;
+        background: yellow;
+
+        .stats {
+          float: left;
+          margin-left: 20px;
+          margin-right: 20px;
+          background: red;
+          width: 50px;
+        }
       }
     }
   }
-
-  #stats-container {
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    width: 410px;
-    background: yellow;
-
-    .stats {
-      float: left;
-      margin-left: 20px;
-      margin-right: 20px;
-      background: red;
-      width: 50px;
-    }
-  }
-
 }
 
 

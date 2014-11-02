@@ -4,20 +4,22 @@
     <% include partials/head %>
   </head>
   <body>
-    <% include partials/nav %>
-    <h1><%= title %></h1>
+    <div class="container">
+    
+      <h1><%= title %></h1>
 
-    <p>Magic 8 Ball<p>
-    <button id="shake">Shake Ball</button>
+      <p>Magic 8 Ball<p>
+      <button id="shake">Shake Ball</button>
 
-    <div id="answer-container">
-      <img src="images/81.jpeg">
-      <div id="answer">
-        <p></p>
+      <div id="answer-container">
+        <img src="images/81.jpeg">
+        <div id="answer">
+          <p></p>
+        </div>
+        <img src="images/81.jpeg">
       </div>
-      <img src="images/81.jpeg">
+      <p><a href="/rate">If the Magic Date Ball helped, please take a second and rate this app!</a></p>
     </div>
-    <p><a href="/rate">If the Magic Date Ball helped, please take a second and rate this app!</a></p>
   </body>
 </html>
 
