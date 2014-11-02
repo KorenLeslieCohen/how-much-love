@@ -5,6 +5,7 @@ $(document).ready(function() {
       "You are just totally clueless.", "Ugh, as if!", "Make sure he sees you, but don't say hi first.",
       "Look like you're having fun and you're really popular.", "Talk to someone in his eyeline, preferably a guy.",
       "Make him come to you.", "Find an excuse to leave while he's still into the conversation.", 
+      "Sometimes you have to show a little skin. This reminds boys of being naked, and then they think of sex.",
       "They key is, always have him wanting more.", "Don't be stupid, you can do so much better.",
       "He thinks he's all that.", "Just as long as his you-know-what isn't crooked.", 
       "Don't sell yourself short.", "He said you gave him a toothache.", "Do a lap before you commit to a location.",
@@ -14,7 +15,7 @@ $(document).ready(function() {
       "Don't rely on mirrors; always take polaroids.", "Whenever a boy comes, you should always have something baking.",
       "Don't forget to design a lighting concept.", "Tis a far, far better thing doing stuff for other people.",
       "Anything you can do to draw attention to your mouth is good.", "Okay, okay, so he is kind of a Baldwin.",
-      " Legs crossed towards each other. That is an unequivocal sex invite.",
+      " Legs crossed towards each other. That is an unequivocal sex invite.", "Whenever a boy comes, you should always have something baking.",
       "Sometimes you have to show a little skin. This reminds boys of being naked, and then they think of sex."];
     var rand = eightArr[Math.floor(Math.random() * eightArr.length)];
     $('#answer p').html('<p>' + rand + '<p>').hide().fadeIn(800);
