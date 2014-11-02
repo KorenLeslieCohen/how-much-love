@@ -7,8 +7,7 @@
     <div class="container">
       <div id="stats-container">
      
-        <h1><%= title %></h1>
-        <p>Magic 8 Stats</p>
+        <h1>Magic Date Stats</h1>
 
         <% stats.forEach(function(stat) { %> 
           <% if (stat.number === "one") { %>
@@ -26,19 +25,19 @@
 
         <div id="stats">
           <div class="stats">
-            <p>&hearts;<br><%= oneArr.length %></p>
+            <p>&hearts;<br><span><%= oneArr.length %></span></p>
           </div>
           <div class="stats">
-            <p>&hearts;&hearts;<br><%= twoArr.length %></p>
+            <p>&hearts;&hearts;<br><span><%= twoArr.length %></span></p>
           </div>
           <div class="stats">
-            <p>&hearts;&hearts;&hearts;<br><%= threeArr.length %></p>
+            <p>&hearts;&hearts;&hearts;<br><span><%= threeArr.length %></span></p>
           </div>
           <div class="stats">
-            <p>&hearts;&hearts;&hearts;&hearts;<br><%= fourArr.length %></p> 
+            <p>&hearts;&hearts;&hearts;&hearts;<br><span><%= fourArr.length %></span></p> 
           </div>
           <div class="stats">
-            <p>&hearts;&hearts;&hearts;&hearts;&hearts;<br><%= fiveArr.length %></p>
+            <p>&hearts;&hearts;&hearts;&hearts;&hearts;<br><span><%= fiveArr.length %></span></p>
           </div>
         </div>
       </div>

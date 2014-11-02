@@ -1,4 +1,7 @@
+@import url('http://fonts.googleapis.com/css?family=Shadows+Into+Light');
+$primary-font: "Shadows Into Light";
 $primary-color: #f9398c;
+$light-color: #f2f2f2;
 
 html {
   margin: 0;
@@ -38,6 +41,7 @@ body {
       text-align: center;
       color: $primary-color;
       margin-top: 0;
+      font-family: $primary-font;
     }
 
     #about-container {
@@ -61,22 +65,25 @@ body {
 
         #help-ball {
           img {
-            width: 400px;
-            height: 400px;
+            height: 70vh;
             border: none;
+          }
+
+          h1 {
+            margin-top: 0;
           }
         }
       }
     }
 
     #answer-container {
-      background: pink;
-      /*background-image: url(/images/clueless6.gif), url(/images/clueless6.gif);*/
+      /*background: pink;*/
       height: 100vh;
 
       img {
         display: table-caption;
         margin: 0 auto;
+        height: 200px;
       }
 
       #shake {
@@ -93,14 +100,14 @@ body {
       #answers {
 
         #answer {
-          height: 100px;
+          height: 400px;
           width: 800px;
           /*border: 1px solid grey;*/
           margin-left: auto;
           margin-right: auto;
 
           p {
-            font-size: 25px;
+            font-size: 40px;
             color: $primary-color;
           }
 
@@ -115,25 +122,36 @@ body {
       #survey-container {
         margin-left: auto;
         margin-right: auto;
-        width: 450px;
-        background: yellow;
+        width: 800px;
+        /*background: yellow;*/
 
         .survey {
           float: left;
           margin-left: 20px;
           margin-right: 20px;
-          background: red;
-          width: 50px;
+          background: $light-color;
+          width: 120px;
 
-          .submit {
-            width: 100px;
-            margin-left: auto;
-            margin-right: auto;
+          p {
+            font-size: 20px;
           }
 
           input {
-            margin-left: 18px;
+            margin-left: 53px;
           }
+        }
+
+        .submit {
+          width: 120px;
+          margin-left: auto;
+          margin-right: auto;
+
+          input {
+            background: white;
+            border: 1px solid $primary-color;
+            padding: 5px;
+            margin-left: 17.5px;
+          } 
         }
       }
     }
@@ -144,16 +162,24 @@ body {
       #stats {
         margin-left: auto;
         margin-right: auto;
-        height: 100px;
-        width: 410px;
+        /*height: 100px;*/
+        width: 800px;
         background: yellow;
 
         .stats {
           float: left;
           margin-left: 20px;
           margin-right: 20px;
-          background: red;
-          width: 50px;
+          background: $light-color;
+          width: 120px;
+
+          p {
+            font-size: 20px;
+
+            span {
+              font-size: 40px;
+            }
+          }
         }
       }
     }
