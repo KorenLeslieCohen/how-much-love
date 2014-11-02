@@ -92,6 +92,7 @@ body {
         p {
           color: $primary-color;
         }
+
       }
 
       #answers {
@@ -114,6 +115,10 @@ body {
             }
           }
         }
+      }
+
+      p {
+        margin-top: 20px;
       }
 
       a {
