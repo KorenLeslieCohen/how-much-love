@@ -68,51 +68,60 @@ body .container #about-container .clueless #help-ball h1 {
 }
 /* line 81, ../sass/style.scss */
 body .container #answer-container {
-  /*background: pink;*/
   height: 100vh;
 }
-/* line 85, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 body .container #answer-container img {
   display: table-caption;
   margin: 0 auto;
-  height: 200px;
+  height: 60vh;
 }
-/* line 91, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 body .container #answer-container #shake {
-  background: white;
-  border: 1px solid #f9398c;
-  padding: 5px;
-  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-/* line 97, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 body .container #answer-container #shake p {
   color: #f9398c;
 }
-/* line 104, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 body .container #answer-container #answers #answer {
-  height: 400px;
-  width: 800px;
-  /*border: 1px solid grey;*/
+  margin-top: 20px;
+  height: 30vh;
+  /*overflow: auto;*/
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
+  /*border: 5px solid $primary-color;*/
 }
 /* line 111, ../sass/style.scss */
 body .container #answer-container #answers #answer p {
   font-size: 40px;
-  color: #f9398c;
+  color: black;
+  height: 10vh;
 }
-/* line 121, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
+body .container #answer-container #answers #answer p span {
+  color: black;
+  font-size: 25px;
+}
+/* line 124, ../sass/style.scss */
+body .container #answer-container a {
+  font-size: 20px;
+}
+/* line 129, ../sass/style.scss */
 body .container #rate-container {
   margin-top: 30vh;
 }
-/* line 124, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 body .container #rate-container #survey-container {
   margin-left: auto;
   margin-right: auto;
   width: 800px;
-  /*background: yellow;*/
 }
-/* line 130, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 body .container #rate-container #survey-container .survey {
   float: left;
   margin-left: 20px;
@@ -121,44 +130,43 @@ body .container #rate-container #survey-container .survey {
   width: 120px;
   height: 120px;
 }
-/* line 138, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 body .container #rate-container #survey-container .survey p {
   font-size: 20px;
 }
-/* line 142, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 body .container #rate-container #survey-container .survey input {
   margin-left: 53px;
   color: #f9398c;
 }
-/* line 148, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 body .container #rate-container #survey-container .submit {
   width: 150px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
 }
-/* line 154, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 body .container #rate-container #survey-container .submit input {
   background: white;
-  border: 1px solid #f9398c;
   padding: 10px;
   color: #f9398c;
   font-family: "Shadows Into Light";
   font-size: 25px;
+  border: none;
 }
-/* line 166, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 body .container #stats-container {
   margin-top: 30vh;
 }
-/* line 169, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 body .container #stats-container #stats {
   margin-left: auto;
   margin-right: auto;
   height: 120px;
   width: 800px;
-  /*background: yellow;*/
 }
-/* line 176, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 body .container #stats-container #stats .stats {
   float: left;
   margin-left: 20px;
@@ -166,17 +174,16 @@ body .container #stats-container #stats .stats {
   background: #f2f2f2;
   width: 120px;
 }
-/* line 183, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 body .container #stats-container #stats .stats p {
   font-size: 20px;
 }
-/* line 186, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 body .container #stats-container #stats .stats p span {
   font-size: 40px;
 }
-/* line 195, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 body .container #stats-container .home-button h2 {
-  border: 1px solid #f9398c;
   padding: 10px;
   font-size: 25px;
   width: 150px;

@@ -79,20 +79,18 @@ body {
     }
 
     #answer-container {
-      /*background: pink;*/
       height: 100vh;
 
       img {
         display: table-caption;
         margin: 0 auto;
-        height: 200px;
+        height: 60vh;
       }
 
       #shake {
-        background: white;
-        border: 1px solid $primary-color;
-        padding: 5px;
-        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
 
         p {
           color: $primary-color;
@@ -102,19 +100,29 @@ body {
       #answers {
 
         #answer {
-          height: 400px;
-          width: 800px;
-          /*border: 1px solid grey;*/
+          margin-top: 20px;
+          height: 30vh;
+          /*overflow: auto;*/
+          width: 900px;
           margin-left: auto;
           margin-right: auto;
+          /*border: 5px solid $primary-color;*/
 
           p {
             font-size: 40px;
-            color: $primary-color;
+            color: black;
+            height: 10vh;
+
+            span {
+              color: black;
+              font-size: 25px;
+            }
           }
-
-
         }
+      }
+
+      a {
+        font-size: 20px;
       }
     }
 
@@ -125,7 +133,6 @@ body {
         margin-left: auto;
         margin-right: auto;
         width: 800px;
-        /*background: yellow;*/
 
         .survey {
           float: left;
@@ -153,11 +160,11 @@ body {
 
           input {
             background: white;
-            border: 1px solid $primary-color;
             padding: 10px;
             color: $primary-color;
             font-family: $primary-font;
             font-size: 25px;
+            border: none;
           } 
         }
       }
@@ -171,7 +178,6 @@ body {
         margin-right: auto;
         height: 120px;
         width: 800px;
-        /*background: yellow;*/
 
         .stats {
           float: left;
@@ -193,7 +199,6 @@ body {
       .home-button {
  
         h2 {
-          border: 1px solid $primary-color;
           padding: 10px;
           font-size: 25px;
           width: 150px;
