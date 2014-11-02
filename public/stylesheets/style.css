@@ -77,7 +77,7 @@ body .container #answer-container img {
   display: table-caption;
   margin: 0 auto;
   height: 55vh;
-  margin-top: 5vh;
+  margin-top: 5px;
 }
 /* line 87, ../sass/style.scss */
 body .container #answer-container #shake {
@@ -99,32 +99,34 @@ body .container #answer-container #answers #answer {
 body .container #answer-container #answers #answer p {
   font-size: 40px;
   color: black;
+  margin-top: 0;
+  line-height: 1.5;
 }
-/* line 109, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 body .container #answer-container #answers #answer p span {
   color: black;
   font-size: 30px;
 }
-/* line 117, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 body .container #answer-container p {
   margin-top: 20px;
   margin-bottom: 0;
 }
-/* line 122, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 body .container #answer-container a {
   font-size: 20px;
 }
-/* line 127, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 body .container #rate-container {
   margin-top: 30vh;
 }
-/* line 130, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 body .container #rate-container #survey-container {
   margin-left: auto;
   margin-right: auto;
   width: 800px;
 }
-/* line 135, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 body .container #rate-container #survey-container .survey {
   float: left;
   margin-left: 20px;
@@ -133,23 +135,23 @@ body .container #rate-container #survey-container .survey {
   width: 120px;
   height: 120px;
 }
-/* line 143, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 body .container #rate-container #survey-container .survey p {
   font-size: 20px;
 }
-/* line 147, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 body .container #rate-container #survey-container .survey input {
   margin-left: 53px;
   color: #f9398c;
 }
-/* line 153, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 body .container #rate-container #survey-container .submit {
   width: 150px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
 }
-/* line 159, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 body .container #rate-container #survey-container .submit input {
   background: white;
   padding: 10px;
@@ -158,18 +160,18 @@ body .container #rate-container #survey-container .submit input {
   font-size: 25px;
   border: none;
 }
-/* line 171, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 body .container #stats-container {
   margin-top: 30vh;
 }
-/* line 174, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 body .container #stats-container #stats {
   margin-left: auto;
   margin-right: auto;
   height: 120px;
   width: 800px;
 }
-/* line 180, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 body .container #stats-container #stats .stats {
   float: left;
   margin-left: 20px;
@@ -177,15 +179,15 @@ body .container #stats-container #stats .stats {
   background: #f2f2f2;
   width: 120px;
 }
-/* line 187, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 body .container #stats-container #stats .stats p {
   font-size: 20px;
 }
-/* line 190, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 body .container #stats-container #stats .stats p span {
   font-size: 40px;
 }
-/* line 199, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 body .container #stats-container .home-button h2 {
   padding: 10px;
   font-size: 25px;
@@ -193,7 +195,7 @@ body .container #stats-container .home-button h2 {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 208, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 body .container #stats-container #tweet-button {
   width: 180px;
   margin-left: auto;
@@ -202,7 +204,7 @@ body .container #stats-container #tweet-button {
 
 /* Smaller Screens - 770 Breakpoint -------> */
 @media screen and (max-width: 770px) {
-  /* line 220, ../sass/style.scss */
+  /* line 222, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 750px;
     height: auto;
@@ -211,59 +213,59 @@ body .container #stats-container #tweet-button {
 }
 /* Smaller Screens - 700px Breakpoint -------> */
 @media screen and (max-width: 700px) {
-  /* line 230, ../sass/style.scss */
+  /* line 232, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 650px;
     height: auto;
   }
 
-  /* line 235, ../sass/style.scss */
+  /* line 237, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 400px;
     width: auto;
   }
 
-  /* line 240, ../sass/style.scss */
+  /* line 242, ../sass/style.scss */
   body .container #answer-container img {
     margin-top: 10px;
   }
 
-  /* line 244, ../sass/style.scss */
+  /* line 246, ../sass/style.scss */
   body .container #answer-container #answers #answer p {
     line-height: 1.2;
     font-size: 30px;
   }
 
-  /* line 249, ../sass/style.scss */
+  /* line 251, ../sass/style.scss */
   body .container #rate-container #survey-container {
     width: 600px;
   }
 }
 /* Smaller Screens - 600px Breakpoint -------> */
 @media screen and (max-width: 600px) {
-  /* line 257, ../sass/style.scss */
+  /* line 259, ../sass/style.scss */
   body .container #about-container {
     margin-top: 80px;
   }
 
-  /* line 261, ../sass/style.scss */
+  /* line 263, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 550px;
     height: auto;
   }
 
-  /* line 266, ../sass/style.scss */
+  /* line 268, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 350px;
     width: auto;
   }
 
-  /* line 271, ../sass/style.scss */
+  /* line 273, ../sass/style.scss */
   body .container #answer-container #answer {
     margin-bottom: 5px;
   }
 
-  /* line 275, ../sass/style.scss */
+  /* line 277, ../sass/style.scss */
   body .container #answer-container img {
     width: 300px;
     height: auto;
@@ -272,104 +274,104 @@ body .container #stats-container #tweet-button {
 }
 /* Smaller Screens - 500px Breakpoint -------> */
 @media screen and (max-width: 500px) {
-  /* line 285, ../sass/style.scss */
+  /* line 287, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 450px;
     height: auto;
   }
 
-  /* line 290, ../sass/style.scss */
+  /* line 292, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 300px;
     width: auto;
   }
 
-  /* line 295, ../sass/style.scss */
+  /* line 297, ../sass/style.scss */
   body .container #answer-container img {
     margin-top: 10px;
   }
 
-  /* line 299, ../sass/style.scss */
+  /* line 301, ../sass/style.scss */
   body .container #rate-container,
   body .container #stats-container {
     margin-top: 10px;
   }
 
-  /* line 304, ../sass/style.scss */
+  /* line 306, ../sass/style.scss */
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
     width: 500px;
   }
 
-  /* line 309, ../sass/style.scss */
+  /* line 311, ../sass/style.scss */
   body .container #answer-container #answers #answer p {
     font-size: 25px;
     margin-bottom: 0;
   }
 
-  /* line 314, ../sass/style.scss */
+  /* line 316, ../sass/style.scss */
   body .container #answer-container #answers #answer p a {
     margin-top: 0;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 400px) {
-  /* line 322, ../sass/style.scss */
+  /* line 324, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 350px;
     height: auto;
   }
 
-  /* line 327, ../sass/style.scss */
+  /* line 329, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 250px;
     width: auto;
   }
 
-  /* line 332, ../sass/style.scss */
+  /* line 334, ../sass/style.scss */
   body .container #answer-container img {
     margin-top: 10px;
   }
 
-  /* line 336, ../sass/style.scss */
+  /* line 338, ../sass/style.scss */
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
     width: 200px;
     margin-left: 100px;
   }
 
-  /* line 342, ../sass/style.scss */
+  /* line 344, ../sass/style.scss */
   body .container #rate-container #survey-container .submit {
     margin-left: -10px;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 350px) {
-  /* line 350, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 320px;
     height: auto;
   }
 
-  /* line 355, ../sass/style.scss */
+  /* line 357, ../sass/style.scss */
   body .container #answer-container {
     height: 400px;
   }
 
-  /* line 359, ../sass/style.scss */
+  /* line 361, ../sass/style.scss */
   body .container #rate-container #survey-container,
   body .container #stats-container #stats {
     margin-left: 75px;
   }
 
-  /* line 364, ../sass/style.scss */
+  /* line 366, ../sass/style.scss */
   body .container #rate-container #survey-container .submit {
     margin-left: -5px;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 320px) {
-  /* line 372, ../sass/style.scss */
+  /* line 374, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 300px;
     height: auto;

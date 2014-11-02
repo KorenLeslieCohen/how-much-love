@@ -81,7 +81,7 @@ body {
         display: table-caption;
         margin: 0 auto;
         height: 55vh;
-        margin-top: 5vh;
+        margin-top: 5px;
       }
 
       #shake {
@@ -105,6 +105,8 @@ body {
           p {
             font-size: 40px;
             color: black;
+            margin-top: 0;
+            line-height: 1.5;
 
             span {
               color: black;
