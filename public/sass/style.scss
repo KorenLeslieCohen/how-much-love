@@ -32,11 +32,13 @@ body {
     height: 100vh;
 
     a {
-      color: #00B7FF;
+      color: $primary-color;
       text-align: center;
+      text-decoration: none;
     }
 
     h1,
+    h2,
     p {
       text-align: center;
       color: $primary-color;
@@ -131,6 +133,7 @@ body {
           margin-right: 20px;
           background: $light-color;
           width: 120px;
+          height: 120px;
 
           p {
             font-size: 20px;
@@ -138,19 +141,23 @@ body {
 
           input {
             margin-left: 53px;
+            color: $primary-color;
           }
         }
 
         .submit {
-          width: 120px;
+          width: 150px;
           margin-left: auto;
           margin-right: auto;
+          margin-top: 15px;
 
           input {
             background: white;
             border: 1px solid $primary-color;
-            padding: 5px;
-            margin-left: 17.5px;
+            padding: 10px;
+            color: $primary-color;
+            font-family: $primary-font;
+            font-size: 25px;
           } 
         }
       }
@@ -162,9 +169,9 @@ body {
       #stats {
         margin-left: auto;
         margin-right: auto;
-        /*height: 100px;*/
+        height: 120px;
         width: 800px;
-        background: yellow;
+        /*background: yellow;*/
 
         .stats {
           float: left;
@@ -180,7 +187,19 @@ body {
               font-size: 40px;
             }
           }
-        }
+        }          
+      }
+
+      .home-button {
+ 
+        h2 {
+          border: 1px solid $primary-color;
+          padding: 10px;
+          font-size: 25px;
+          width: 150px;
+          margin-left: auto;
+          margin-right: auto;
+        } 
       }
     }
   }

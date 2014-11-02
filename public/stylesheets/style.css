@@ -26,67 +26,69 @@ body .container {
 }
 /* line 34, ../sass/style.scss */
 body .container a {
-  color: #00B7FF;
+  color: #f9398c;
   text-align: center;
+  text-decoration: none;
 }
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 body .container h1,
+body .container h2,
 body .container p {
   text-align: center;
   color: #f9398c;
   margin-top: 0;
   font-family: "Shadows Into Light";
 }
-/* line 49, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 body .container #about-container h1 {
   font-size: 25px;
   margin-top: 5vh;
 }
-/* line 54, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 body .container #about-container .clueless {
   margin-left: auto;
   margin-right: auto;
   height: 70vh;
 }
-/* line 59, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 body .container #about-container .clueless img {
   border: 20px solid #f9398c;
   display: table-caption;
   margin: 0 auto;
   height: 70vh;
 }
-/* line 67, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 body .container #about-container .clueless #help-ball img {
   height: 70vh;
   border: none;
 }
-/* line 72, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 body .container #about-container .clueless #help-ball h1 {
   margin-top: 0;
 }
-/* line 79, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 body .container #answer-container {
   /*background: pink;*/
   height: 100vh;
 }
-/* line 83, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 body .container #answer-container img {
   display: table-caption;
   margin: 0 auto;
   height: 200px;
 }
-/* line 89, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 body .container #answer-container #shake {
   background: white;
   border: 1px solid #f9398c;
   padding: 5px;
   width: 100px;
 }
-/* line 95, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 body .container #answer-container #shake p {
   color: #f9398c;
 }
-/* line 102, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 body .container #answer-container #answers #answer {
   height: 400px;
   width: 800px;
@@ -94,64 +96,69 @@ body .container #answer-container #answers #answer {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 109, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 body .container #answer-container #answers #answer p {
   font-size: 40px;
   color: #f9398c;
 }
-/* line 119, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 body .container #rate-container {
   margin-top: 30vh;
 }
-/* line 122, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 body .container #rate-container #survey-container {
   margin-left: auto;
   margin-right: auto;
   width: 800px;
   /*background: yellow;*/
 }
-/* line 128, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 body .container #rate-container #survey-container .survey {
   float: left;
   margin-left: 20px;
   margin-right: 20px;
   background: #f2f2f2;
   width: 120px;
+  height: 120px;
 }
-/* line 135, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 body .container #rate-container #survey-container .survey p {
   font-size: 20px;
 }
-/* line 139, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 body .container #rate-container #survey-container .survey input {
   margin-left: 53px;
+  color: #f9398c;
 }
-/* line 144, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 body .container #rate-container #survey-container .submit {
-  width: 120px;
+  width: 150px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
 }
-/* line 149, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 body .container #rate-container #survey-container .submit input {
   background: white;
   border: 1px solid #f9398c;
-  padding: 5px;
-  margin-left: 17.5px;
+  padding: 10px;
+  color: #f9398c;
+  font-family: "Shadows Into Light";
+  font-size: 25px;
 }
-/* line 159, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 body .container #stats-container {
   margin-top: 30vh;
 }
-/* line 162, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 body .container #stats-container #stats {
   margin-left: auto;
   margin-right: auto;
-  /*height: 100px;*/
+  height: 120px;
   width: 800px;
-  background: yellow;
+  /*background: yellow;*/
 }
-/* line 169, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 body .container #stats-container #stats .stats {
   float: left;
   margin-left: 20px;
@@ -159,11 +166,20 @@ body .container #stats-container #stats .stats {
   background: #f2f2f2;
   width: 120px;
 }
-/* line 176, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 body .container #stats-container #stats .stats p {
   font-size: 20px;
 }
-/* line 179, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 body .container #stats-container #stats .stats p span {
   font-size: 40px;
+}
+/* line 195, ../sass/style.scss */
+body .container #stats-container .home-button h2 {
+  border: 1px solid #f9398c;
+  padding: 10px;
+  font-size: 25px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
