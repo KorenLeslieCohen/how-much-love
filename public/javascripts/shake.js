@@ -6,7 +6,7 @@ $(document).ready(function() {
       "Make him come to you.", "Find an excuse to leave while he's still into the conversation.", 
       "They key is, always have him wanting more.", "Don't be stupid, you can do so much better.",
       "He thinks he's all that.", "Just as long as his you-know-what isn't crooked.", 
-      "Don't sell yourself short.", "You gave him a toothache.", "Do a lap before you commit to a location.",
+      "Don't sell yourself short.", "Give him a toothache.", "Do a lap before you commit to a location.",
       "You two don't make any sense.", "You are the most beautiful girl in Beverly Hills.",
       "You know you're gorgeous, alright? And popular.", "Wine makes people wanna feel, like sexy.",
       "He dresses better than you. What would you bring to the relationship?", "You don't mesh well together.",
@@ -16,7 +16,7 @@ $(document).ready(function() {
       " Legs crossed towards each other. That is an unequivocal sex invite.",
       "Sometimes you have to show a little skin. This reminds boys of being naked, and then they think of sex."];
     var rand = eightArr[Math.floor(Math.random() * eightArr.length)];
-    $('#answer p').html(rand).hide().fadeIn(2000);
+    $('#answer p').html(rand).hide().fadeIn(500);
   });
 });
 
