@@ -8,7 +8,10 @@ var bodyParser = require('body-parser');
 // mongodb setup
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/how-much-love');
+// var db = monk('localhost:27017/how-much-love');
+
+var credentials = require('./credentials');
+var db = monk(credentials.uri);
 
 var routes = require('./routes/index');
 
