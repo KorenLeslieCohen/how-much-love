@@ -197,3 +197,43 @@ body .container #stats-container #tweet-button {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Smaller Screens - 700px Breakpoint -------> */
+@media screen and (max-width: 700px) {
+  /* line 217, ../sass/style.scss */
+  .clueless {
+    width: 600px;
+    height: 100px;
+  }
+  /* line 220, ../sass/style.scss */
+  .clueless img {
+    width: 600px;
+    height: 100px;
+  }
+}
+/* Smaller Screens - 600px Breakpoint -------> */
+@media screen and (max-width: 600px) {
+  /* line 231, ../sass/style.scss */
+  .clueless {
+    width: 500px;
+    height: 100px;
+  }
+  /* line 234, ../sass/style.scss */
+  .clueless img {
+    width: 500px;
+    height: 100px;
+  }
+}
+/* Smaller Screens - 500px Breakpoint -------> */
+@media screen and (max-width: 500px) {
+  /* line 245, ../sass/style.scss */
+  .clueless {
+    width: 400px;
+    height: 100px;
+  }
+  /* line 248, ../sass/style.scss */
+  .clueless img {
+    width: 400px;
+    height: 100px;
+  }
+}

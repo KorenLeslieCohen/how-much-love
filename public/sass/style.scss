@@ -210,3 +210,45 @@ body {
     }
   }
 }
+
+/* Smaller Screens - 700px Breakpoint -------> */
+@media screen and (max-width : 700px) {
+
+  .clueless {
+    width: 600px;
+    height: 100px;
+    img {
+      width: 600px;
+      height: 100px;
+    }
+  }
+
+}
+
+/* Smaller Screens - 600px Breakpoint -------> */
+@media screen and (max-width : 600px) {
+
+  .clueless {
+    width: 500px;
+    height: 100px;
+    img {
+      width: 500px;
+      height: 100px;
+    }
+  }
+
+}
+
+/* Smaller Screens - 500px Breakpoint -------> */
+@media screen and (max-width : 500px) {
+
+  .clueless {
+    width: 400px;
+    height: 100px;
+    img {
+      width: 400px;
+      height: 100px;
+    }
+  }
+
+}
