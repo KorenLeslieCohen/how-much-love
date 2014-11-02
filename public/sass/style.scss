@@ -84,7 +84,8 @@ body {
       img {
         display: table-caption;
         margin: 0 auto;
-        height: 60vh;
+        height: 55vh;
+        margin-top: 5vh;
       }
 
       #shake {
@@ -102,11 +103,9 @@ body {
         #answer {
           margin-top: 20px;
           height: 30vh;
-          /*overflow: auto;*/
           width: 900px;
           margin-left: auto;
           margin-right: auto;
-          /*border: 5px solid $primary-color;*/
 
           p {
             font-size: 40px;
@@ -209,14 +208,3 @@ body {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-

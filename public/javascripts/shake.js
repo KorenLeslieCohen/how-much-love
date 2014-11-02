@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#shake').click(function () {
-    $(this).effect( "shake" );
+    $(this).effect("shake");
     var eightArr = ["You're too good for him.", "If he said he'd call the next day, in boy time that means Thursday.",
       "You are just totally clueless.", "Ugh, as if!", "Make sure he sees you, but don't say hi first.",
       "Look like you're having fun and you're really popular.", "Talk to someone in his eyeline, preferably a guy.",
@@ -17,7 +17,7 @@ $(document).ready(function() {
       " Legs crossed towards each other. That is an unequivocal sex invite.",
       "Sometimes you have to show a little skin. This reminds boys of being naked, and then they think of sex."];
     var rand = eightArr[Math.floor(Math.random() * eightArr.length)];
-    $('#answer p').html('<p>' + rand + '<p>').hide().fadeIn(500);
+    $('#answer p').html('<p>' + rand + '<p>').hide().fadeIn(800);
   });
 });
 
