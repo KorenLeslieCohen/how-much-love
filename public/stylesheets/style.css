@@ -222,87 +222,91 @@ body .container #stats-container #tweet-button {
 /* Smaller Screens - 600px Breakpoint -------> */
 @media screen and (max-width: 600px) {
   /* line 238, ../sass/style.scss */
+  body .container #about-container {
+    margin-top: 80px;
+  }
+
+  /* line 242, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 550px;
     height: auto;
   }
 
-  /* line 243, ../sass/style.scss */
+  /* line 247, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 350px;
     width: auto;
   }
 
-  /* line 248, ../sass/style.scss */
+  /* line 252, ../sass/style.scss */
+  body .container #answer-container #answer {
+    height: 300px;
+    overflow: auto;
+  }
+
+  /* line 257, ../sass/style.scss */
+  body .container #answer-container #answer p {
+    height: 100px;
+  }
+
+  /* line 261, ../sass/style.scss */
   body .container #answer-container img {
-    /*    width: 550px;
-        height: auto;*/
+    width: 300px;
+    height: auto;
     margin-top: 10px;
   }
 }
 /* Smaller Screens - 500px Breakpoint -------> */
 @media screen and (max-width: 500px) {
-  /* line 259, ../sass/style.scss */
+  /*  body .container #about-container {
+      margin-top: 150px;
+    }*/
+  /* line 276, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 450px;
     height: auto;
   }
 
-  /* line 264, ../sass/style.scss */
+  /* line 281, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 300px;
     width: auto;
   }
 
-  /* line 269, ../sass/style.scss */
+  /* line 286, ../sass/style.scss */
   body .container #answer-container img {
-    /*    width: 450px;
+    /*    width: 300px;
         height: auto;*/
     margin-top: 10px;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 400px) {
-  /* line 280, ../sass/style.scss */
+  /* line 297, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 350px;
     height: auto;
     border: 5px solid #f9398c;
   }
 
-  /* line 286, ../sass/style.scss */
+  /* line 303, ../sass/style.scss */
   body .container #about-container .clueless #help-ball img {
     height: 250px;
     width: auto;
   }
 
-  /* line 291, ../sass/style.scss */
+  /* line 308, ../sass/style.scss */
   body .container #answer-container img {
-    /*    width: 350px;
-        height: 350px;*/
+    /*  width: 300px;
+      height: auto;*/
     margin-top: 10px;
   }
 }
 /* Smaller Screens - 400px Breakpoint -------> */
 @media screen and (max-width: 350px) {
-  /* line 302, ../sass/style.scss */
+  /* line 319, ../sass/style.scss */
   body .container #about-container .clueless img {
     width: 320px;
-    height: auto;
-  }
-
-  /* line 307, ../sass/style.scss */
-  body .container #answer-container img {
-    /*    width: 300px;
-        height: 300px;*/
-    /*margin-top: 10px;*/
-  }
-}
-/* Smaller Screens - 400px Breakpoint -------> */
-@media screen and (max-width: 320px) {
-  /* line 318, ../sass/style.scss */
-  body .container #about-container .clueless img {
-    width: 300px;
     height: auto;
   }
 
@@ -310,6 +314,71 @@ body .container #stats-container #tweet-button {
   body .container #answer-container img {
     /*    width: 300px;
         height: 300px;*/
+    /*margin-top: 10px;*/
+  }
+
+  /* line 330, ../sass/style.scss */
+  body .container #answer-container {
+    height: 400px;
+  }
+
+  /*  body .container #answer-container img {
+      height: 400px;
+    }*/
+  /* line 338, ../sass/style.scss */
+  body .container #answer-container #answers #answer {
+    /*height: 10px;*/
+  }
+}
+/*      #answer-container {
+      height: 100vh;
+
+      img {
+        display: table-caption;
+        margin: 0 auto;
+        height: 55vh;
+        margin-top: 5vh;
+      }
+
+      #shake {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+        p {
+          color: $primary-color;
+        }
+      }
+
+      #answers {
+
+        #answer {
+          margin-top: 20px;
+          height: 30vh;
+          max-width: 900px;
+          margin-left: auto;
+          margin-right: auto;
+
+          p {
+            font-size: 40px;
+            color: black;
+            height: 10vh;
+
+            span {
+              color: black;
+              font-size: 25px;
+
+}*/
+/* Smaller Screens - 400px Breakpoint -------> */
+@media screen and (max-width: 320px) {
+  /* line 386, ../sass/style.scss */
+  body .container #about-container .clueless img {
+    width: 300px;
+    height: auto;
+  }
+
+  /* line 392, ../sass/style.scss */
+  body .container #answer-container img {
     /*margin-top: 10px;*/
   }
 }
