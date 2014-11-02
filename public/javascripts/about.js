@@ -13,7 +13,7 @@ $(document).ready(function() {
       setTimeout(function() {
         j += 1;
         $('.clueless').html(place[j]);
-      }, 4000 * i);
+      }, 2000 * i);
     }
   }
 
