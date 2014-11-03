@@ -3,16 +3,16 @@ $(document).ready(function() {
   var aboutArr = [$('#clueless1').html(), $('#clueless2').html(), $('#clueless3').html(), 
     $('#clueless4').html(), $('#clueless5').html(), $('#clueless6').html(),
     $('#clueless7').html(), $('#clueless8').html(), $('#help').html()];
-  var place = [];
+  var placeholderArr = [];
 
   function clueless() {
     for (var i in aboutArr) {
-      place[i] = aboutArr[i];
+      placeholderArr[i] = aboutArr[i];
       var max = 5;
       var j = 0;
       setTimeout(function() {
         j += 1;
-        $('.clueless').html(place[j]);
+        $('.clueless').html(placeholderArr[j]);
       }, 2500 * i);
     }
   }
