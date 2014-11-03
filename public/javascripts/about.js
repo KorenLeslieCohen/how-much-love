@@ -1,20 +1,19 @@
 $(document).ready(function() {
-  $('#clueless1, #clueless2, #clueless3, #clueless4, #clueless5, #clueless6, #clueless7, #clueless8, #help').hide();
+  $('#clueless1, #clueless2, #clueless3, #clueless4, #clueless5, #clueless6, #clueless7, #help').hide();
   
   var aboutArr = [$('#clueless1').html(), $('#clueless2').html(), $('#clueless3').html(), 
     $('#clueless4').html(), $('#clueless5').html(), $('#clueless6').html(),
-    $('#clueless7').html(), $('#clueless8').html(), $('#help').html()];
+    $('#clueless7').html(), $('#help').html()];
   
   var placeholderArr = [];
 
   function clueless() {
     for (var i in aboutArr) {
       placeholderArr[i] = aboutArr[i];
-      var max = 5;
       var j = 0;
       setTimeout(function() {
-        j += 1;
         $('.clueless').html(placeholderArr[j]);
+        j += 1;
       }, 2500 * i);
     }
   }
