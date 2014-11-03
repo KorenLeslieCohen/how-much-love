@@ -76,7 +76,7 @@ body .container #answer-container {
 body .container #answer-container img {
   display: table-caption;
   margin: 0 auto;
-  height: 55vh;
+  height: 65vh;
   margin-top: 5px;
 }
 /* line 87, ../sass/style.scss */
