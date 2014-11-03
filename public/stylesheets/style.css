@@ -352,7 +352,7 @@ body .container #stats-container #tweet-button {
     margin-left: -10px;
   }
 }
-/* Smaller Screens - 400px Breakpoint -------> */
+/* Smaller Screens - 350px Breakpoint -------> */
 @media screen and (max-width: 350px) {
   /* line 359, ../sass/style.scss */
   body .container #about-container .clueless img {
@@ -376,7 +376,7 @@ body .container #stats-container #tweet-button {
     margin-left: -5px;
   }
 }
-/* Smaller Screens - 400px Breakpoint -------> */
+/* Smaller Screens - 320px Breakpoint -------> */
 @media screen and (max-width: 320px) {
   /* line 381, ../sass/style.scss */
   body .container #about-container .clueless img {
